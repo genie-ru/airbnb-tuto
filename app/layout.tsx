@@ -1,5 +1,4 @@
 import './globals.css';
-import Navbar from './components/Navbar';
 import {Inter, Inconsolata, Roboto} from 'next/font/google';
 import type {Metadata} from 'next';
 
@@ -21,10 +20,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <Navbar />
-        <main className="max-w-3xl mx-auto py-10">
-        {children}
-        </main>
+        <h1>Hello</h1>
       </body>
   </html>
   );
