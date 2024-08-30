@@ -8,6 +8,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body>
+        <nav>Hello</nav>
         {children}
       </body>
   </html>
